@@ -4,9 +4,10 @@ Implementing text generation using only convolution layers with dilation and res
 linear time
 Similar to lstm_text_generation taken from keras examples
 
-2 options: w/o embedding layer, although the input is characters based, the embedding of numbers and punctuation should
- be quite similar accordingly
-
+## 3 Options:
+1) ByteNet decoder w/o embedding layer - residual_dilated_conv_text_generation
+2) ByteNet decoder with embedding layer - residual_dilated_conv_text_generation_embedding
+3) ByteNet decoder predicting n next characters instead of just 1 - residual_dilated_conv_n_chars_text_generation
 
 ## Dataset used
 nietzsche.txt from
