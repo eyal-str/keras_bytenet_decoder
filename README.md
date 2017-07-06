@@ -1,8 +1,7 @@
 # Keras ByteNet Decoder for text generation
 Implementing text generation using only convolution layers with dilation and residual layers
 (ByteNet decoder [Link to paper](https://arxiv.org/pdf/1610.10099.pdf)) in order to predict the next character with
-linear time
-Similar to lstm_text_generation taken from keras examples
+linear time.
 
 ## 4 Options:
 1) ByteNet decoder w/o embedding layer - residual_dilated_conv_text_generation
